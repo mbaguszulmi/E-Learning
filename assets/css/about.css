@@ -1,0 +1,31 @@
+.content-wrapper {
+    max-width: 1200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.grid .item {
+    padding: 20px;
+}
+
+.grid .item .image {
+    padding-top: 100%;
+    border-radius: 50%;
+}
+
+.grid .item .image.bagus {
+    background: url("/assets/img/bagus.jpg") center center / cover;
+}
+
+.grid .item .image.anam {
+    background: url("/assets/img/anam.jpg") center center / cover;
+}
+
+.grid .item .image.fajar {
+    background: url("/assets/img/fajar.jpeg") center center / cover;
+}

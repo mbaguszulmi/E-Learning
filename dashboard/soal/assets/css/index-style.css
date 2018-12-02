@@ -1,0 +1,21 @@
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.blue {
+    background: #0a78b7;
+    color: #fff;
+    border: 1px solid #08679e;
+}
+
+.inner-wrapper {
+    margin: 10px 0;
+}
+
+.btn-wrapper {
+    overflow: hidden;
+    padding: 15px !important;
+}

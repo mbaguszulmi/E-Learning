@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login {
+  width: 220px;
+  height: 250px;
+  background-color: #333;
+  padding: 15px;
+  position:  absolute;
+  top: calc(50vh - 140px);
+  left: calc(50vw - 125px);
+  display: none;
+}
+
+form {
+  color: #fff;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+input.btn {
+  padding: 0 10px;
+  line-height: 35px;
+}
+
+.blue {
+  background-color: blue;
+  color: #fff;
+  border: 0;
+}
+
+.orange {
+  background-color: orange;
+  color: #fff;
+  border: 0;
+}
+
+.mh-5 {
+  margin: 0 5px;
+}
+
+#header {
+	width: 100%;
+	background-color: #333;
+}
+.menu-login {
+	background-color: #282828;
+	text-align: right;
+	color: #eeee;
+	padding: 3px 0;
+}
+.menu-login ul {
+	max-width: 1225px;
+	margin: 0 auto;
+}
+.menu-login li {
+	display: inline-block;
+	margin: 0 8px;
+}
+.menu-login a {
+	color: #eee;
+}
+.wrapper, .content-wrapper {
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 1px 0;
+}
+.wrapper ul {
+	text-align: right;
+	margin: 0;
+}
+.wrapper li {
+	display: inline-block;
+}
+.wrapper a {
+	text-decoration: none;
+	color: #eee;
+	display: inline-block;
+	line-height: 53px;
+	transition: all 0.3s ease-in-out;
+	padding: 0 8px;
+}
+.wrapper a:hover {
+	background-color: #515151;
+}
+.wrapper img {
+  height: 40px;
+  float: left;
+  padding: 5px;
+}
+
+content {
+  height: 1000px;
+}
+
+content img {
+  height: 500px;
+  width: 100%;
+}
+
+.content-wrapper {
+  padding: 0 100px;
+}
+
+ul {
+  padding: 0;
+}
+
+.content-wrapper ul li {
+  padding-left: 110px;
+  list-style: none;
+  display: inline-block;
+}
+
+.content-wrapper ul li:first-child {
+  padding-left: 0;
+}
+
+.box {
+  width: 180px;
+  height: 100px;
+  text-align: center;
+}
+
+.box a {
+  color: #000;
+}
+
+#box {
+  height: 300px;
+  width: 649px;
+  float: right;
+  text-align: center;
+}
+
+#box img {
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+  padding: 70px 45px;
+}
+
+a:hover {
+  background-color: #777;
+}
+
+footer {
+  background-color: #222222;
+  height: 100px;
+}
+
+footer p {
+  color: #eaeaea;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.login-form {
+  width: 100%;
+}
+
+input[type=email], input[type=password] {
+  width: calc(100% - 18px);
+}

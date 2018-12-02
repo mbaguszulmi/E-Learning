@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e9e9e9;
+}
+
+.soal-wrapper {
+    max-width: 1080px;
+    margin: 30px auto 0;
+    background-color: #f3f3f3;
+    position: relative;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    height: calc(100vh - 138px);
+}
+
+.detail {
+    padding: 10px;
+}
+
+.title {
+    margin: 0;
+}
+
+.matpel {
+    margin: 0;
+}
+
+.counter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #006fff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 0 0 8px;
+}
+
+.working-area {
+    padding: 10px;
+    overflow: auto;
+    height: calc(100vh - 276px);
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green {
+    background: #0ab718;
+    color: #fff;
+    border: 1px solid #087b11;
+}
+
+.blue {
+    background: #0a78b7;
+    color: #fff;
+    border: 1px solid #08679e;
+}
+
+.next-wrapper {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.loader {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh !important;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    display: table;
+}
+
+.loader-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#submit {
+    display: none;
+}
+
+.spinner {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #198293;
+    border-bottom: 16px solid #198293;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .center {
+      text-align: center;
+  }
+
+  .p-10 {
+      padding: 10px;
+  }

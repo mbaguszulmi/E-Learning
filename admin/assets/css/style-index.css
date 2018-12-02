@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {line-height: 40px;padding: 10px;border-radius: 5px;}
+
+.blue {
+    background: #1ea0bd;
+    color: #fff;
+}
+
+.red {
+	background-color: #b93636;
+	color: #fff;
+	border: 1px solid #6e1c1c;
+}
+
+.yellow {
+	background-color: #ffcf00;
+	color: #fff;
+	border: 1px solid #c09c00;
+}
+
+.align-center {
+    text-align: center;
+}
